@@ -23,27 +23,23 @@ This website contains information about my research. Check the contact page for 
     float: left;
     width: 50%;
   }
-  .education {
-    background-color: lightblue;
-  }
-  .interests {
-    background-color: lightgreen;
-  }
+  .education
+  .interests
 </style>
-
-<div class="column education">
-  <h2>Education</h2>
-  <ul>
-    <li>Bachelor's degree in Computer Science</li>
-    <li>Master's degree in Data Science</li>
-  </ul>
-</div>
 
 <div class="column interests">
   <h2>Interests</h2>
   <ul>
-    <li>Data analysis</li>
-    <li>Machine learning</li>
-    <li>Natural language processing</li>
+    <li>Solid-state chemistry</li>
+    <li>Thin-film optoelectronic devices</li>
+  </ul>
+</div>
+
+<div class="column education">
+  <h2>Education</h2>
+  <ul>
+    <li>BE in Metallurgical and Materials Engineering</li>
+    <li>MTech in Mineral Processing Engineering</li>
+    <li>PhD in Materials Science and Engineering</li>
   </ul>
 </div>
