@@ -1,0 +1,65 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+
+    <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><span style="color:#494E52">{{ title }}</span></a>
+      {% endif %}
+    </span>
+
+    {% if post.authors %}
+    <br><span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.authors }}</i></span><br>
+    {% endif %}
+
+    {% if post.collection == 'publications' and post.paperurl%}
+    <span style="font-size:0.8em; line-height: 0.5;"><b>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
+    {% endif %}
+
+    {% if post.paperurl %}
+    <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see publication in <a href="{{ post.paperurl }}"> <u>Journal</u></a>
+    {% if post.rgate %}
+    or <a href="{{ post.rgate }}"> <u>Research Gate</u></a>
+      {% endif%}
+      ) </cite></b></span><br>
+    {% endif %}
+
+    {% if post.collection == 'publications' and  post.repo %}
+    <span style="font-size:0.8em; line-height: 0.5;"><b>Deposited in <i>{{ post.repo }}</i> <cite>(see <a href="{{ post.repourl }}"> <u>link</u></a>)</cite></b></span><br>
+    {% endif%}
+
+
+    {% if post.tagline %}
+    <span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.tagline }}</i></span><br>
+    {% endif %}
+<br>
+
+  </article>
+</div>
