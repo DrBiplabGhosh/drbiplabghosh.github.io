@@ -9,9 +9,6 @@ redirect_from:
 #image_sliders:
 #  - home
 ---
-#<body align="left">
-#<img src='/images/lettericon.png' style='width: 40%'>
-
 <p align= "justify">
 This website contains information about my research on halide perovskites and inspired semiconductors.
 
