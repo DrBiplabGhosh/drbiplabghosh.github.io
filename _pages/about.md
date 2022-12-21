@@ -32,6 +32,7 @@ This website contains information about my research. Check the contact page for 
   <ul>
     <li>Solid-state chemistry</li>
     <li>Thin-film optoelectronic devices</li>
+    <li>High throughput DFT calculations</li>
   </ul>
 </div>
 
