@@ -10,7 +10,7 @@ redirect_from:
 <h1>Welcome!</h1>
 
 <p align= "justify">
-My name is Biplab Ghosh and I am PDM Research Scholar at the Roeffaers's lab of KU Leuven, Belgium. Currently I am working on the nanoscale degradation mechanism in lead halide perovskite-based optoelectronic devices under external stimuli. In parallel, I am working on the development of lead-free halide perovskites (you know the toxicity of lead). 
+My name is Biplab Ghosh and I am PDM Research Scholar at the Roeffaers's lab of KU Leuven, Belgium. <Br> Currently I am working on the nanoscale degradation mechanism in lead halide perovskite-based optoelectronic devices under external stimuli. <Br> In parallel, I am working on the development of lead-free halide perovskites (you know the toxicity of lead). 
 
 This website contains information about my research. Check the contact page for the contact information.
 
@@ -40,7 +40,10 @@ This website contains information about my research. Check the contact page for 
   <h2>Education</h2>
   <ul>
     <li>BE in Metallurgical and Materials Engineering</li>
+    <li><em>Bengal Engineering and Science University, Shibpur</em></li>
     <li>MTech in Mineral Processing Engineering</li>
+    <li><em>Academy of Scientific and Innovative Research, CSIR</em></li>
     <li>PhD in Materials Science and Engineering</li>
+    <li><em>Nanyang Technological Universtiy, Singapore</em></li>
   </ul>
 </div>
