@@ -11,49 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* PhD, Interdisciplinary Graduate School (Sustainable-Earth), 2019
+Dissertation: *“Bismuth Halide Semiconductors - A Combined Theoretical and Experimental Approach for Photovoltaics”*
+Supervisor: Nripan Mathews; co-supervisor: Claude Guet; Mentor: Subodh Mhaisalkar
+Nanyang Technological University, Singapore
+
+* M. Tech, Materials Resources Technology, 2013
+Academy of Scientific and Innovative Research (AcSIR), CSIR – IMMT, India
+
+* B.E. in Metallurgical and Materials Engineering, 2011
+Bengal Engineering and Science University, Shibpur, India
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2020 - October 2021: Research Fellow
+  * Singapore-Berkeley research initiative for sustainable energy (SinBeRISE), Energy Research Institute @NTU
+  * Supervisor: Professor Nripan Mathews
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* March 2019 - September 2019: Graduate student assistant and mentor
+  * Energy Research Institute @NTU
+
+* July 2013 - December 2014: Quick-Hire Scientist
+  *Institute of Minerals and Materials Technology, Bhubaneswar, India
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Synthesis and characterization of thin film semiconductor
+  * Solid-state, Solution-processed, CVD, evaporation
+  * Standard optoelectronic characterization
+  * Synchrotron-based GIWAX
+  * Confocal and wide-field microscopy
+* Fabrication and characterization of devices
+  * Photovoltaics
+  * Photodetector
+  * LEDs
+* Density functional theory
+  * High throughput calculations
+  * Electronic structure
+  * Defect characterizations

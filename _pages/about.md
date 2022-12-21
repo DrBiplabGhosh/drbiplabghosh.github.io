@@ -42,10 +42,10 @@ This website contains information about my research. Check the contact page for 
   <h2>Education</h2>
   <ul>
     <li>BE in Metallurgical and Materials Engineering</li>
-    <li><em>Bengal Engineering and Science University, Shibpur</em></li>
+    <em>Bengal Engineering and Science University, Shibpur</em>
     <li>MTech in Mineral Processing Engineering</li>
-    <li><em>Academy of Scientific and Innovative Research, CSIR</em></li>
+    <em>Academy of Scientific and Innovative Research, CSIR</em>
     <li>PhD in Materials Science and Engineering</li>
-    <li><em>Nanyang Technological Universtiy, Singapore</em></li>
+    <em>Nanyang Technological Universtiy, Singapore</em>
   </ul>
 </div>
