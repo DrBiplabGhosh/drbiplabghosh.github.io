@@ -24,6 +24,10 @@ Bengal Engineering and Science University, Shibpur, India
 
 Work experience
 ======
+* November 2021 - April 2023: PDM Research Fellow
+  * cMACS, KU Leuven
+  * Supervisor: Professor Maarten Roeffaers
+
 * January 2020 - October 2021: Research Fellow
   * Singapore-Berkeley research initiative for sustainable energy (SinBeRISE), Energy Research Institute @NTU
   * Supervisor: Professor Nripan Mathews
