@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <h2> Address information </h2>
-Leuven Nanocentre <br>
-Celestijnenlaan 200J<br>
-B-3001 Leuven, Belgium <br>
-biplab.ghosh@kuleuven.be; +32(0)466455676
+Solar Energy Research Institute of Singapore <br>
+Engineering Drive 1, #06-01 Block E3A <br>
+Singapore 117574 <br>
+biplab@nus.edu.sg; +65(0)84397667
